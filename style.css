@@ -1,0 +1,159 @@
+/*-- Google Font Imports --*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+/*-- Kerpy's Stylesheet --*/
+body {
+	background: #fff;
+}
+
+#header {
+	background: #e5e5e5;
+	position: fixed;
+	height: 120px;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 50pt;
+	font-family: 'Open Sans';
+	z-index: 9999;
+	text-decoration: none;
+	color: #343434;
+}
+
+#header a{
+	text-decoration: none;
+	color: #343434;
+}
+
+#navigation {
+	background: #e5e5e5;
+	height: 60px;
+	text-align: center;
+	position: absolute;
+	padding-top: 30px;
+	top: 0;
+	right: 0;
+	left: 0;
+	border-bottom: 5px solid #0099cc;
+}
+
+#navigation a{
+	text-decoration: none;
+	font-size: 14pt;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	color: #949494;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	border: 1px solid transparent;
+	transition: border-radius 0.3s;
+}
+
+#navigation a:hover{
+	color: #5E5E5E;
+	border: 1px solid darkgrey;
+}
+
+#bodylogo {
+	font-family: 'Raleway';
+	font-weight: 400;
+	color: #343434;
+	position: relative;
+	font-size: 50pt;
+	margin-top: 25%;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#content {
+	background: white;
+	position: absolute;
+	top: 140px;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	font-family: 'Open Sans';
+	color: #5E5E5E;
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+#content-block{
+	width: 70%;
+	height: 200px;
+	background: white;
+	border: 1px solid #5E5E5E;
+	margin-top: 20px;
+	text-decoration: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	z-index: 9998;
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-family: 'Open Sans';
+}
+
+#content-block p{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#content-block h1{
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#content-block img{
+	margin-top: auto;
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 1px dashed #949494;
+	float: left;
+}
+
+#content-block:hover{
+	background: #eee;
+}
+
+#nav {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 120px;
+	text-align: center;
+	padding-bottom: 10px;
+	z-index: 9999;
+	background: #e5e5e5;
+}
+
+#nav a{
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-decoration: none;
+	color: #949494;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	margin-left: 20px;
+	transition: border 0.3s;
+}
+
+#nav a:hover{
+	border-top: 1px solid darkgrey;
+	border-left: 1px solid darkgrey;
+	border-right: 1px solid darkgrey;
+}
